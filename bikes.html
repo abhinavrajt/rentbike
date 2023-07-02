@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Rental Website - Bikes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bikes.html">Bikes</a></li>
+      <li><a href="terms.html">Terms and Conditions</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="admin-login">
+      <a href="admin.html">Admin Login</a>
+    </div>
+    <div class="user-login">
+      <a href="user.html">User Login</a>
+    </div>
+  </nav>
+  
+
+<section id="bike">
+    <div class="container">
+        <h2>Our Bikes</h2>
+        <div class="bike-list">
+          <div class="bike-item">
+            <img src="bike11.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Speed Demon</h3>
+              <p>Price: ₹1000 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1000"> 
+              <input type="hidden" name="bike" value="Speed Demon">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+        <div class="bike-item">
+            <img src="bike12.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Thunder Beast</h3>
+              <p>Price: ₹500 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="500"> 
+              <input type="hidden" name="bike" value="Thunder Beast">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike13.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Road King</h3>
+              <p>Price: ₹1000 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1000"> 
+              <input type="hidden" name="bike" value="Road King">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike14.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Blaze Rider</h3>
+              <p>Price: ₹700 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="700"> 
+              <input type="hidden" name="bike" value="Blaze Rider">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike15.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Shadow Ninja</h3>
+              <p>Price: ₹800 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="800"> 
+              <input type="hidden" name="bike" value="Shadow Ninja">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike16.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Rebel Racer</h3>
+              <p>Price: ₹1000 per day</p>
+              
+              <input type="hidden" name="price" value="1000"> 
+              <form action="rent.php" method="post">
+                <input type="hidden" name="bike" value="Rebel Racer">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike17.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Savage Fury</h3>
+              <p>Price: ₹1500 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1500"> 
+              <input type="hidden" name="bike" value="Savage Fury">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike18.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Night Hawk</h3>
+              <p>Price: ₹1900 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1900"> 
+              <input type="hidden" name="bike" value="Night Hawk">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike19.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Firestorm</h3>
+              <p>Price: ₹600 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="600"> 
+              <input type="hidden" name="bike" value="Firestorm">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike20.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Iron Horse</h3>
+              <p>Price: ₹700 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="700"> 
+              <input type="hidden" name="bike" value="Iron Horse">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike21.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Phantom Rider</h3>
+              <p>Price: ₹1800 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1800"> 
+              <input type="hidden" name="bike" value="Phantom Rider">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="bike-item">
+            <img src="bike22.jpg" alt="Bike 1">
+            <div class="bike-details">
+              <h3>Dominator</h3>
+              <p>Price: ₹800 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="800"> 
+              <input type="hidden" name="bike" value="Dominator">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
